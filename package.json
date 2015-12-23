@@ -1,0 +1,26 @@
+{
+  "name": "neighborhood-maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "watchify lib/main.js -o lib/bundle.js",
+    "watch": "babel src --out-dir lib --stage 0 --modules common --watch"
+  },
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.7.6",
+    "r-dom": "^2.1.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-map-gl": "^0.6.1",
+    "vsvg-paths": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "browserify": "^12.0.1",
+    "watchify": "^3.6.1"
+  }
+}
