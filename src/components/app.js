@@ -30,9 +30,8 @@ class App extends Component {
   }
 
   onChangeViewport (change) {
-    // console.log('changes', ...args)
-    const viewport = Object.assign({}, this.state.viewport, change)
-    this.setState({viewport})
+    // const viewport = Object.assign({}, this.state.viewport, change)
+    // this.setState({viewport})
   }
 
   render () {
