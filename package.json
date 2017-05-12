@@ -13,14 +13,14 @@
   "dependencies": {
     "immutable": "^3.7.6",
     "r-dom": "^2.1.0",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-map-gl": "^0.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-map-gl": "^2.0.2",
     "vsvg-paths": "^1.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.34",
-    "browserify": "^12.0.1",
+    "babel": "^6.23.0",
+    "browserify": "^14.3.0",
     "watchify": "^3.6.1"
   }
 }
